@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Shak Kamal.">
+
+    <title>Contact | Shah Kamal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span>SK</span>
+                <strong>Shah Kamal</strong>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="page-hero">
+
+            <span class="section-label">CONTACT</span>
+
+            <h1>Let's Connect</h1>
+
+            <p>
+                Have a question, idea, or opportunity?
+                Feel free to contact me.
+            </p>
+
+        </section>
+
+
+        <section class="section contact-layout">
+
+
+            <!-- Contact Information -->
+
+            <div class="contact-information">
+
+                <span class="section-label">
+                    GET IN TOUCH
+                </span>
+
+                <h2>Let's Build Something Together</h2>
+
+                <p>
+                    I am interested in learning, building projects,
+                    and connecting with people in the software
+                    development community.
+                </p>
+
+
+                <!-- Email -->
+
+                <a
+                    href="mailto:kamalakhunzada0987@gmail.com"
+                    class="contact-card"
+                >
+
+                    <div class="contact-icon">
+                        @
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+
+                        <strong>
+                            kamalakhunzada0987@gmail.com
+                        </strong>
+
+                        <small>
+                            Click to send me an email
+                        </small>
+                    </div>
+
+                </a>
+
+
+                <!-- LinkedIn -->
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card"
+                >
+
+                    <div class="contact-icon">
+                        in
+                    </div>
+
+                    <div>
+                        <span>LinkedIn</span>
+
+                        <strong>Connect with me</strong>
+
+                        <small>
+                            LinkedIn profile will be added later
+                        </small>
+                    </div>
+
+                </a>
+
+
+                <!-- GitHub -->
+
+                <div class="contact-card disabled-card">
+
+                    <div class="contact-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <div>
+                        <span>GitHub</span>
+
+                        <strong>Coming Soon</strong>
+
+                        <small>
+                            GitHub profile will be connected later
+                        </small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+
+            <div class="contact-form-wrapper">
+
+                <span class="section-label">
+                    SEND A MESSAGE
+                </span>
+
+                <h2>Write to Me</h2>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary form-button"
+                    >
+                        Send Message →
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>© 2026 Shah Kamal. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
