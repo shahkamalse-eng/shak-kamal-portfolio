@@ -1,8 +1,8 @@
-# Shak Kamal — Portfolio Website
+# Shah Kamal — Portfolio Website
 
 Welcome to my personal portfolio website.
 
-I am **Shak Kamal**, a **BS Software Engineering student at Abbasi University**, currently in my 5th semester. This portfolio showcases my skills, education, projects, and learning journey in software engineering.
+I am **Shah Kamal**, a **BS Software Engineering student at Abasyn University**, currently in my 5th semester. This portfolio showcases my skills, education, projects, and learning journey in software engineering.
 
 ## 🌐 Live Portfolio
 
